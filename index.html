@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="card">
+    <h1 class="title">Today's forecast is! 🥁🥁🥁</h1>
+    <div id="cardContainer" class="card__container">
+
+        <article id="alexCard" class="card__article">
+            <div class="card__data">
+                <img src="weather.png" alt="card image" class="card__img">
+
+                <h1 id="alex" class="card__title">Alexandria, Egypt</h1>
+                <p id="alexDesc" class="card__description"></p>
+                <p id="alexTemp" class="card__temp"></p>
+                <img id="alexicon" src="" alt=""></img>
+            </div>
+            <div class="card__shapes">
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+            </div>
+        </article>
+        <article id="userChoice" class="card__article">
+            <div class="card__data">
+                <img src="weather.png" alt="card image" class="card__img">
+                <h1 id="location" class="card__title">Welcome to your favorite weather application!</h1>
+                <p id="temp" class="card__description">Sunny with you here! 🌞</p>
+                <p id="desc" class="card__temp">36°C</p>
+                <img id="icon" src="" alt=""></img>
+            </div>
+            <div class="card__shapes">
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+            </div>
+        </article>
+        <article id="saintPetersburgCard" class="card__article">
+            <div class="card__data">
+                <img src="weather.png" alt="card image" class="card__img">
+
+                <h1 id="saintpetersburg" class="card__title">Saint Petersburg, Russia</h1>
+                <p id="saintpetersburgDesc" class="card__description"></p>
+                <p id="saintpetersburgTemp" class="card__temp"></p>
+                <img id="saintpetersburgicon" src="" alt=""></img>
+
+            </div>
+            <div class="card__shapes">
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+                <span class="card__shape"></span>
+            </div>
+        </article>
+    </div>
+    <input type="text" id="locationInput" placeholder="i.e Alexandria, Egypt">
+    <button id="searchButton">Get weather!</button>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
